@@ -1,0 +1,347 @@
+2022-03-22 09:44:58,058 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2022-03-22 12:01:46,370 : WARN  : main :  : Node : Color Manager : 3:4 : No column selected and no categorical column available.
+2022-03-22 12:21:39,271 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: C:\Program Files\KNIME\configuration\org.eclipse.osgi\284\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2022-03-22 13:45:39,163 : WARN  : main :  : Node : Row Filter : 0:9 : No row filter specified
+2022-03-22 14:06:05,943 : WARN  : main :  : Node : Entropy Scorer : 0:18 : No auto configuration available
+Please configure in dialog.
+2022-03-22 14:10:26,053 : WARN  : main :  : Node : Entropy Scorer : 0:18 : No auto configuration available
+Please configure in dialog.
+2022-03-22 14:14:43,753 : WARN  : main :  : Node : Scorer : 0:19 : No columns selected yet.
+2022-03-22 14:19:51,888 : WARN  : main :  : Node : ROC Curve : 0:20 : Class column 'null ' does not exist
+2022-03-22 14:29:46,307 : ERROR : Clear OSGi configuration :  : InvokeUpdateAction :  :  : Could not clean OSGi configuration area: C:\Program Files\KNIME\configuration\org.eclipse.osgi\284\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2022-03-22 14:52:06,427 : WARN  : main :  : Node : Hierarchical Clustering (DistMatrix) : 0:20 : Configuration is missing.
+2022-03-22 14:52:18,986 : WARN  : main :  : WrappedNodeDialog : Hierarchical Clustering (DistMatrix) : 0:20 : failed to apply settings: No Distance Matrix column selected.
+org.knime.core.node.InvalidSettingsException: No Distance Matrix column selected.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.base.node.mine.cluster.hierarchical.ParHieClusterNodeDialog.saveSettingsTo(ParHieClusterNodeDialog.java:166)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-03-22 15:03:50,406 : WARN  : main :  : Node : Scorer : 0:19 : Column 'Cluster (to number)' not found.
+2022-03-22 15:17:17,470 : WARN  : main :  : Node : Scorer : 0:21 : No columns selected yet.
+2022-03-22 15:31:43,029 : WARN  : main :  : Node : Scorer : 0:19 : Column 'Cluster (to number)' not found.
+2022-03-22 15:47:08,060 : WARN  : main :  : WrappedNodeDialog : Scorer : 0:19 : failed to apply settings: First and second column cannot be the same.
+org.knime.core.node.InvalidSettingsException: First and second column cannot be the same.
+	at org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeDialog.saveSettingsTo(AccuracyScorer2NodeDialog.java:349)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-03-22 15:50:27,858 : WARN  : main :  : Node : Cell Replacer : 0:22 : No target column selected
+2022-03-22 15:56:33,544 : WARN  : main :  : Node : Cell Replacer : 0:22 : No target column selected
+2022-03-22 15:56:34,993 : WARN  : main :  : Node : Cell Replacer : 0:22 : No target column selected
+2022-03-22 15:56:37,441 : WARN  : KNIME-Worker-11-Table Creator 0:21 :  : Node : Cell Replacer : 0:22 : No target column selected
+2022-03-22 15:57:14,734 : WARN  : main :  : Node : Cell Replacer : 0:22 : No target column selected
+2022-03-22 16:00:34,705 : WARN  : main :  : Node : Cell Replacer : 0:22 : No such column "column1"
+2022-03-22 16:00:44,341 : WARN  : KNIME-Worker-13-Table Creator 0:21 :  : Node : Cell Replacer : 0:22 : No such column "column1"
+2022-03-22 17:13:16,872 : WARN  : ModalContext :  : Node : Color Manager : 3:2 : Column "class" has no nominal values set: execute predecessor or add Binner.
+2022-03-22 17:13:16,897 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 3:9 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-03-22 17:14:04,415 : WARN  : main :  : Node : Color Manager : 3:2 : Column "class" has no nominal values set: execute predecessor or add Binner.
+2022-03-22 17:14:04,417 : WARN  : main :  : Node : Scatter Plot (local) : 3:9 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-03-22 17:14:06,381 : WARN  : main :  : Node : Color Manager : 3:2 : Column "class" has no nominal values set: execute predecessor or add Binner.
+2022-03-22 17:14:06,383 : WARN  : main :  : Node : Scatter Plot (local) : 3:9 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-03-22 17:14:12,674 : WARN  : KNIME-Worker-26-CSV Reader 3:1 :  : Node : Scatter Plot (local) : 3:5 : Some columns are ignored: bounds missing.
+2022-03-22 17:14:12,676 : WARN  : KNIME-Worker-26-CSV Reader 3:1 :  : Node : Scatter Plot (local) : 3:9 : Some columns are ignored: bounds missing.
+2022-03-22 18:10:23,420 : WARN  : ModalContext :  : Node : Color Manager : 4:2 : Column "class" has no nominal values set: execute predecessor or add Binner.
+2022-03-22 18:10:23,430 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 4:9 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-03-22 18:35:17,496 : WARN  : main :  : Node : k-Medoids : 0:23 : Configuration Missing.
+2022-03-22 18:35:26,348 : WARN  : main :  : WrappedNodeDialog : k-Medoids : 0:23 : failed to apply settings: No Distance Matrix column selected.
+org.knime.core.node.InvalidSettingsException: No Distance Matrix column selected.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.distmatrix.kmedoids.KMedoidsNodeDialogPane.saveSettingsTo(KMedoidsNodeDialogPane.java:364)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-03-22 19:10:46,831 : WARN  : main :  : Node : Math Formula : 0:23 : No configuration available
+2022-03-22 19:12:59,664 : WARN  : main :  : WrappedNodeDialog : Math Formula : 0:23 : failed to apply settings: No such column: Mean(
+org.knime.core.node.InvalidSettingsException: No such column: Mean(
+	at org.knime.ext.jep.ExpressionParser.handleColumn(ExpressionParser.java:348)
+	at org.knime.ext.jep.ExpressionParser.dollarFound(ExpressionParser.java:264)
+	at org.knime.ext.jep.ExpressionParser.parse(ExpressionParser.java:171)
+	at org.knime.ext.jep.ExpressionParser.<init>(ExpressionParser.java:146)
+	at org.knime.ext.jep.JEPNodeDialogPane.saveSettingsTo(JEPNodeDialogPane.java:354)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-03-22 19:14:06,919 : WARN  : main :  : WrappedNodeDialog : Math Formula : 0:23 : failed to apply settings: Unable to parse m_expression
+Encountered "<EOF>" at line 2, column 34.
+Was expecting one of:
+    "+" ...
+    "-" ...
+    "!" ...
+    <STRING_LITERAL> ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <INDENTIFIER1> ...
+    <INDENTIFIER2> ...
+    "(" ...
+    "[" ...
+    
+
+org.knime.core.node.InvalidSettingsException: Unable to parse m_expression
+Encountered "<EOF>" at line 2, column 34.
+Was expecting one of:
+    "+" ...
+    "-" ...
+    "!" ...
+    <STRING_LITERAL> ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <INDENTIFIER1> ...
+    <INDENTIFIER2> ...
+    "(" ...
+    "[" ...
+    
+
+	at org.knime.ext.jep.ExpressionParser.parse(ExpressionParser.java:179)
+	at org.knime.ext.jep.ExpressionParser.<init>(ExpressionParser.java:146)
+	at org.knime.ext.jep.JEPNodeDialogPane.saveSettingsTo(JEPNodeDialogPane.java:354)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-03-22 19:14:29,947 : WARN  : main :  : WrappedNodeDialog : Math Formula : 0:23 : failed to apply settings: Unable to parse m_expression
+Encountered "<EOF>" at line 2, column 34.
+Was expecting one of:
+    "+" ...
+    "-" ...
+    "!" ...
+    <STRING_LITERAL> ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <INDENTIFIER1> ...
+    <INDENTIFIER2> ...
+    "(" ...
+    "[" ...
+    
+
+org.knime.core.node.InvalidSettingsException: Unable to parse m_expression
+Encountered "<EOF>" at line 2, column 34.
+Was expecting one of:
+    "+" ...
+    "-" ...
+    "!" ...
+    <STRING_LITERAL> ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <INDENTIFIER1> ...
+    <INDENTIFIER2> ...
+    "(" ...
+    "[" ...
+    
+
+	at org.knime.ext.jep.ExpressionParser.parse(ExpressionParser.java:179)
+	at org.knime.ext.jep.ExpressionParser.<init>(ExpressionParser.java:146)
+	at org.knime.ext.jep.JEPNodeDialogPane.saveSettingsTo(JEPNodeDialogPane.java:354)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-03-22 19:36:21,278 : WARN  : main :  : Node : Pivoting : 0:25 : No pivot columns selected.
+2022-03-22 19:36:57,017 : WARN  : main :  : Node : Pivoting : 0:25 : No pivot columns selected.
+2022-03-22 19:37:20,744 : WARN  : main :  : Node : Math Formula (Variable) : 0:25 : No expression has been set.
+2022-03-22 19:37:33,362 : WARN  : main :  : Node : Math Formula : 0:25 : No configuration available
+2022-03-22 19:48:58,770 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 4:5 : Some columns are ignored: bounds missing.
+2022-03-22 19:48:58,782 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 4:9 : Some columns are ignored: bounds missing.
+2022-03-22 20:02:37,363 : WARN  : main :  : Node : Image Writer (Table) : 0:23 : No applicable image column available
+2022-03-22 20:03:05,292 : WARN  : main :  : Node : Table To Image : 0:23 : No such image column in input table: 
+2022-03-22 20:03:42,642 : WARN  : main :  : Node : Table To Image : 0:23 : No such image column in input table: 
+2022-03-22 20:22:51,290 : WARN  : main :  : Node : Numeric Scorer : 0:23 : No columns selected for reference
+2022-03-22 20:31:36,030 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: C:\Program Files\KNIME\configuration\org.eclipse.osgi\284\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2022-03-22 20:32:43,593 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : Please configure the node.
+2022-03-22 20:33:07,246 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : Column class is not string compatible, its type is Number (integer)
+2022-03-22 20:33:16,915 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : Column class is not string compatible, its type is Number (integer)
+2022-03-22 20:33:17,701 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : Column class is not string compatible, its type is Number (integer)
+2022-03-22 20:33:52,917 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : Column class is not string compatible, its type is Number (integer)
+2022-03-22 20:34:06,249 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : Column Cluster Replacement is not string compatible, its type is Number (integer)
+2022-03-22 20:34:18,451 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : Column OD280/OD315 of diluted wines is not string compatible, its type is Number (double)
+2022-03-22 20:34:58,096 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2022-03-22 20:38:09,513 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : The columns selected don't contain any values.
+2022-03-22 20:38:23,523 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : The columns selected don't contain any values.
+2022-03-22 20:49:35,141 : WARN  : main :  : Node : Normalizer : 4:25 : Auto-configure: [0, 1] normalization on all numeric columns: "class", "Alcohol", "Malic acid",  ... <11 more>
+2022-03-22 20:49:42,863 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:49:55,036 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:49:59,360 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:50:01,748 : WARN  : KNIME-Worker-15-Normalizer 4:25 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:50:17,576 : WARN  : KNIME-Worker-16-PCA 4:2 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:54:50,263 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 5:5 : Some columns are ignored: bounds missing.
+2022-03-22 20:54:50,268 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 5:9 : Some columns are ignored: bounds missing.
+2022-03-22 20:56:40,937 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:56:42,251 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:56:44,650 : WARN  : KNIME-Worker-25-Normalizer 4:25 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:57:01,599 : WARN  : KNIME-Worker-26-PCA 4:2 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:57:13,537 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:57:14,723 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:58:48,727 : WARN  : main :  : Node : Color Manager : 4:4 : Column is not valid for range color settings: String
+2022-03-22 20:58:48,729 : WARN  : main :  : Node : Color Manager : 4:13 : Column is not valid for range color settings: String
+2022-03-22 20:58:48,729 : WARN  : main :  : Node : Color Manager : 4:17 : Column is not valid for range color settings: String
+2022-03-22 20:58:48,729 : WARN  : main :  : Node : Color Manager : 4:15 : Column is not valid for range color settings: String
+2022-03-22 20:58:48,730 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:58:58,591 : WARN  : main :  : Node : Color Manager : 4:4 : Column is not valid for range color settings: String
+2022-03-22 20:58:58,593 : WARN  : main :  : Node : Color Manager : 4:13 : Column is not valid for range color settings: String
+2022-03-22 20:58:58,593 : WARN  : main :  : Node : Color Manager : 4:17 : Column is not valid for range color settings: String
+2022-03-22 20:58:58,593 : WARN  : main :  : Node : Color Manager : 4:15 : Column is not valid for range color settings: String
+2022-03-22 20:58:58,594 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:59:00,819 : WARN  : KNIME-Worker-32-Number To String 4:26 :  : Node : Color Manager : 4:4 : Column is not valid for range color settings: String
+2022-03-22 20:59:00,822 : WARN  : KNIME-Worker-32-Number To String 4:26 :  : Node : Color Manager : 4:13 : Column is not valid for range color settings: String
+2022-03-22 20:59:00,822 : WARN  : KNIME-Worker-32-Number To String 4:26 :  : Node : Color Manager : 4:17 : Column is not valid for range color settings: String
+2022-03-22 20:59:00,822 : WARN  : KNIME-Worker-32-Number To String 4:26 :  : Node : Color Manager : 4:15 : Column is not valid for range color settings: String
+2022-03-22 20:59:00,823 : WARN  : KNIME-Worker-32-Number To String 4:26 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:59:00,834 : WARN  : KNIME-Worker-33-Normalizer 4:25 :  : Node : Color Manager : 4:4 : Column is not valid for range color settings: String
+2022-03-22 20:59:00,836 : WARN  : KNIME-Worker-33-Normalizer 4:25 :  : Node : Color Manager : 4:13 : Column is not valid for range color settings: String
+2022-03-22 20:59:00,837 : WARN  : KNIME-Worker-33-Normalizer 4:25 :  : Node : Color Manager : 4:17 : Column is not valid for range color settings: String
+2022-03-22 20:59:00,837 : WARN  : KNIME-Worker-33-Normalizer 4:25 :  : Node : Color Manager : 4:15 : Column is not valid for range color settings: String
+2022-03-22 20:59:00,838 : WARN  : KNIME-Worker-33-Normalizer 4:25 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:59:48,443 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:59:54,043 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 20:59:54,698 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:00:06,766 : WARN  : KNIME-Worker-35-PCA 4:2 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:00:59,920 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:01:09,360 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:01:10,120 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:01:13,813 : WARN  : KNIME-Worker-34-Normalizer 4:25 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:01:13,836 : WARN  : KNIME-Worker-32-PCA 4:2 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:03:27,318 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:03:28,306 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:03:34,558 : WARN  : KNIME-Worker-39-Normalizer 4:25 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:03:34,575 : WARN  : KNIME-Worker-33-PCA 4:2 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:04:02,623 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:04:03,878 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:04:09,427 : WARN  : KNIME-Worker-33-Normalizer 4:25 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:04:09,442 : WARN  : KNIME-Worker-40-PCA 4:2 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 21:11:40,369 : WARN  : main :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:11:44,753 : WARN  : KNIME-Worker-42-Normalizer 7:25 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:11:44,769 : WARN  : KNIME-Worker-44-PCA 7:2 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:11:59,551 : WARN  : main :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:12:02,275 : WARN  : KNIME-Worker-46-Normalizer 7:25 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:12:02,289 : WARN  : KNIME-Worker-44-PCA 7:2 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:12:15,730 : WARN  : main :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:12:18,450 : WARN  : KNIME-Worker-47-Normalizer 7:25 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:12:18,464 : WARN  : KNIME-Worker-44-PCA 7:2 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:12:36,795 : WARN  : main :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:12:41,178 : WARN  : KNIME-Worker-47-Normalizer 7:25 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:12:41,193 : WARN  : KNIME-Worker-44-PCA 7:2 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:13:06,832 : WARN  : main :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:13:09,953 : WARN  : KNIME-Worker-45-Normalizer 7:25 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:13:09,967 : WARN  : KNIME-Worker-44-PCA 7:2 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:14:27,234 : WARN  : main :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:14:31,242 : WARN  : KNIME-Worker-43-Normalizer 7:25 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:14:31,257 : WARN  : KNIME-Worker-47-PCA 7:2 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:15:25,628 : WARN  : main :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:15:35,441 : WARN  : KNIME-Worker-46-Normalizer 7:25 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:15:35,454 : WARN  : KNIME-Worker-45-PCA 7:2 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:15:53,625 : WARN  : main :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:15:55,818 : WARN  : KNIME-Worker-44-Normalizer 7:25 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 21:15:55,831 : WARN  : KNIME-Worker-47-PCA 7:2 :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 22:17:25,594 : WARN  : main :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 22:17:29,875 : WARN  : KNIME-Worker-49-Normalizer 4:25 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 22:17:29,891 : WARN  : KNIME-Worker-51-PCA 4:2 :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-22 22:19:19,971 : WARN  : main :  : Node : Scorer : 4:19 : Column 'Cluster Replacement' not found.
+2022-03-22 22:22:42,653 : WARN  : main :  : Node : Scorer : 0:19 : Column 'Cluster Replacement' not found.
+2022-03-22 22:27:43,421 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 7:23 : The columns selected don't contain any values.
+2022-03-22 22:29:15,844 : WARN  : ModalContext :  : Node : Color Manager : 7:2 : Column "income" has no nominal values set: execute predecessor or add Binner.
+2022-03-22 23:37:54,996 : WARN  : main :  : Node : Scorer (JavaScript) : 0:23 : The columns selected don't contain any values.
+2022-03-22 23:39:06,523 : WARN  : KNIME-Worker-63-PCA 0:2 :  : Node : Scorer (JavaScript) : 0:23 : The columns selected don't contain any values.
+2022-03-22 23:50:54,772 : WARN  : ModalContext :  : VMFileLocker :  :  : Directory 'D:\Year3\Data Science Algorithms and Tools\Assignment\Example Workflows\Basic Examples\Building a Simple Classifier' does not exist, cannot lock it
+2022-03-22 23:51:00,197 : WARN  : ModalContext :  : VMFileLocker :  :  : Directory 'D:\Year3\Data Science Algorithms and Tools\Assignment\P05-solutions\P05_Clustering_v2' does not exist, cannot lock it
+2022-03-22 23:51:03,022 : WARN  : ModalContext :  : VMFileLocker :  :  : Directory 'D:\Year3\Data Science Algorithms and Tools\Assignment\Example\Task2' does not exist, cannot lock it
+2022-03-23 10:13:37,847 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 4:23 : The columns selected don't contain any values.
+2022-03-23 12:52:10,922 : WARN  : main :  : Node : String To Number : 3:27 : No columns selected
+2022-03-23 12:52:10,970 : WARN  : main :  : Node : Scorer (JavaScript) : 3:23 : The columns selected don't contain any values.
+2022-03-23 12:52:41,329 : WARN  : main :  : Node : String To Number : 3:27 : No columns selected
+2022-03-23 12:52:41,335 : WARN  : main :  : Node : Scorer (JavaScript) : 3:23 : The columns selected don't contain any values.
+2022-03-23 12:52:47,513 : WARN  : KNIME-Worker-6-Normalizer 3:25 :  : Node : String To Number : 3:27 : No columns selected
+2022-03-23 12:52:47,523 : WARN  : KNIME-Worker-6-Normalizer 3:25 :  : Node : Scorer (JavaScript) : 3:23 : The columns selected don't contain any values.
+2022-03-23 12:53:18,664 : WARN  : main :  : Node : Scorer (JavaScript) : 3:23 : The columns selected don't contain any values.
+2022-03-23 12:53:26,514 : WARN  : KNIME-Worker-7-PCA 3:2 :  : Node : Scorer (JavaScript) : 3:23 : The columns selected don't contain any values.
+2022-03-23 22:42:41,928 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2022-03-23 22:42:41,949 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2022-03-23 22:42:41,960 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2022-03-23 22:42:41,960 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2022-03-23 22:42:41,961 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2022-03-23 22:42:41,962 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2022-03-23 22:42:41,963 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2022-03-23 22:42:41,963 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
